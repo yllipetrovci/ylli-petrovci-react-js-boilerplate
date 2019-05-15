@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';// Redirect
+import Main from './containers/dashboard';
+import SidebardMenu from './components/sidebarMenu';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <button type="button" className="btn btn-primary">Click</button>
-      </div>
+      <BrowserRouter>
+        <Switch>
+          <div className="row">
+            <div className="col-12 col-md-3 pr-md-0">
+              <SidebardMenu />
+            </div>
+            <div className="col-12 col-md-9 pl-md-0">
+              <Route exact path="/" component={Main} />
+            </div>
+          </div>
+        </Switch>
+      </BrowserRouter>
     );
   }
 }
