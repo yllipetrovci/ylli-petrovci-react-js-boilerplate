@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';// Redirect
 import Main from './containers/dashboard';
 import SidebardMenu from './components/sidebarMenu';
+import Header from './components/header';
 
 class App extends Component {
   render() {
@@ -9,6 +10,9 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <div className="row">
+            <div className='col-12'>
+              <Header name="Name"/>
+            </div>
             <div className="col-12 col-md-3 pr-md-0">
               <SidebardMenu />
             </div>
