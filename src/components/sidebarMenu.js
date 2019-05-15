@@ -11,7 +11,7 @@ const SideBarMenu = (props) => {
                 </div>
                 <hr />
                 <div className="col-12">
-                    <ul>
+                    <ul className="sidebar-ul">
                         {/* #display routes */}
                         {setupRoutes.map((route, index) => (
                             <li>{route.name}</li>

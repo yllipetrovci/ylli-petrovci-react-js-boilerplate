@@ -1,6 +1,13 @@
 .sidebar-menu-component {
   border: 1px solid red;
-  h3 {
-    font-size: 100px;
-  }
+  height: 100%;
+}
+
+.sidebar-ul{
+  padding-left:0;
+}
+
+.sidebar-ul li{
+ list-style:none;
+ border:1px solid black;
 }
