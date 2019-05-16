@@ -1,13 +1,33 @@
 .sidebar-menu-component {
-  border: 1px solid red;
-  height: 100%;
+  background-color: #293A57;
+  /* border: 1px solid red; */
+  height: 100vh;
 }
 
 .sidebar-ul{
-  padding-left:0;
+  padding-left: 30px;
+  padding-top:15px;
 }
 
 .sidebar-ul li{
  list-style:none;
- border:1px solid black;
+ /* border:1px solid black; */
+ color:#6680AA;
+ padding-bottom:10px;
+}
+
+.sidebar-ul li:active, .sidebar-ul li:hover{
+  color:#5DDBCD;  
+  cursor: pointer;
+}
+
+.logo-wrapper{
+  min-height: 80px;
+  background-color:#21314E;
+}
+
+.logo-wrapper .logo{
+  padding-top:20px;
+  text-align: center;
+  color:#fff;
 }

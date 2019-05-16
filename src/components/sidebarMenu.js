@@ -7,7 +7,9 @@ const SideBarMenu = (props) => {
         <div className="sidebar-menu-component">
             <div className="row">
                 <div className="col-12">
-                    <h3 className="text-center">Logo</h3>
+                    <div className="logo-wrapper">
+                        <h3 className="logo">Logo</h3>
+                    </div>
                 </div>
                 <hr />
                 <div className="col-12">
