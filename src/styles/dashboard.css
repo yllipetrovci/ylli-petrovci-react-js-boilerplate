@@ -1,3 +1,5 @@
 .dashboard-view{
     border:1px solid red;
+    height: 100vh;
+    border: 0.5px solid #BDC4D1;
 }
