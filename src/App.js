@@ -15,8 +15,10 @@ class App extends Component {
               <SidebardMenu />
             </div>
             <div className="col-12 col-md-10 pl-md-0">
-              <div className='col-12'>
-                <Header name="Name" />
+              <div className='pl-0 col-12 pr-0'>
+                <div className="container">
+                  <Header name="Name" />
+                </div>
               </div>
               <Route exact path="/" component={Main} />
             </div>
