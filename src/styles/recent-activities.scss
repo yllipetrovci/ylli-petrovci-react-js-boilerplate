@@ -1,20 +1,29 @@
+@import "./config-theme.scss";
+
 .recent-activities-component {
-  border: 1px solid red;
-  h2 {
-    font-size: 10px;
+//   border: 1px solid red;
+  background-color: $recent-activity-bg-color;
+  h4 {
+    color: $recent-activity-header-color;
+  }
+  h5 {
+    color: $recent-activity-username-color;
+  }
+  p {
+    color: $recent-activity-user-action-color;
   }
   img {
     max-width: 80%;
   }
 
-  height: 100%;
+//   height: 100%;
 
   ul {
     padding: 0;
-    border: 1px solid black;
+    // border: 1px solid black;
     li {
       padding: 0;
-      border: 1px solid black;
+    //   border: 1px solid black;
     }
   }
 }
