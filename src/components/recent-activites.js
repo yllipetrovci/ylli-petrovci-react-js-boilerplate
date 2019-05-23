@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/recent-activities.scss';
 
 const RecentActivities = (props) => {
 
