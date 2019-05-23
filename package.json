@@ -34,8 +34,7 @@
     "webpack-cli": "^3.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "start-w": "webpack-dev-server --inline --hot",
+    "start": "webpack-dev-server --inline --hot",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
