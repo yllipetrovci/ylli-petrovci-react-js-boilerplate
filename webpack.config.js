@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     // Tell webpack to begin building its 
     // dependency graph from this file.
-    entry: path.join(__dirname, 'src', 'App.js'),
+    entry: path.join(__dirname, 'src', 'index.js'),
     mode: 'development',
     // And to place the output in the `build` directory
     output: {
