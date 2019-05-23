@@ -1,34 +1,28 @@
-.sidebar-menu-component {
-  background-color: #293a57;
-  /* border: 1px solid red; */
-  height: 100vh;
+@import "./config-theme.scss";
 
+.sidebar-menu-component {
+  background-color: $side-bar-bg-color;
+  height: 100%;
   .sidebar-ul {
     padding-left: 30px;
     padding-top: 15px;
-  }
-
-  .sidebar-ul li {
-    list-style: none;
-    /* border:1px solid black; */
-    color: #6680aa;
-    padding-bottom: 10px;
-  }
-
-  .sidebar-ul li:active,
-  .sidebar-ul li:hover {
-    color: #5ddbcd;
-    cursor: pointer;
+    li {
+      color: $side-bar-li-color;
+      &:active,
+      &:hover {
+        color: $side-bar-li-hover-and-active-color;
+        cursor: pointer;
+      }
+    }
   }
 
   .logo-wrapper {
     min-height: 80px;
-    background-color: #21314e;
-  }
-
-  .logo-wrapper .logo {
-    padding-top: 20px;
-    text-align: center;
-    color: #fff;
+    background-color: $side-bar-logo-bg-color;
+    .logo {
+      padding-top: 20px;
+      text-align: center;
+      color: #fff;
+    }
   }
 }
