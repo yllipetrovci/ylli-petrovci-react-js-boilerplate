@@ -7,7 +7,11 @@ class Dashboard extends Component {
         return (
             <div className="dashboard-view">
                 <h1>Dashboard</h1>
-                <RecentActivities/>
+                <div className="row ">
+                    <div className="offset-9 col-3 text-right">
+                        <RecentActivities />
+                    </div>
+                </div>
             </div>
         )
     }
