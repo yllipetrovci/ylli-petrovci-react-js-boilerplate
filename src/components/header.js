@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/header.css';
+import '../styles/header.scss';
 import user_img from '../assets/user-avatar.png';
 
 const Header = (props) => {

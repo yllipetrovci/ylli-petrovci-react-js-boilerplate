@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/sidebar.css';
+import '../styles/sidebar.scss';
 import setupRoutes from '../setupRoutes';
 
 const SideBarMenu = (props) => {
