@@ -8,11 +8,7 @@ const Header = (props) => {
             <div className="row">
                 <div className="col-1">
                     <button type="button">
-                        <div className="menu-icon">
-                            <div className="line"></div>
-                            <div className="line"></div>
-                            <div className="line"></div>
-                        </div>
+                        <i class="fas fa-align-justify"></i>
                     </button>
                 </div>
                 <div className="col-2">
