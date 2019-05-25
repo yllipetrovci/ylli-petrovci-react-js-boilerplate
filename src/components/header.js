@@ -18,6 +18,11 @@ const Header = (props) => {
                         </li>
                     </ul>
                 </div>
+                <div className="col-3">
+                    <button  class="btn btn-success">
+                        Create Projects
+                    </button>
+                </div>
                 <div className="offset-5 col-2 text-right pt-3">
                     <img src={user_img} alt="user-avatar" className="avatar-img rounded-circle" />
                 </div>
