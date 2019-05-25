@@ -2,7 +2,7 @@
   min-height: 80px;
   padding-top: 20px;
   background-color: #f7faff;
-  
+
   .avatar-img {
     width: 50px;
     height: 50px;
@@ -11,5 +11,23 @@
   .username-paragraph {
     color: #819ac6;
     padding-top: 15px;
+  }
+
+  .active .menu-icon {
+    background: #3e3065;
+    border: 1px solid #3e3065;
+  }
+  
+  .menu-icon {
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    position: absolute;
+
+    .line {
+      border-bottom: 2px solid black;
+      height: 11px;
+      width: 100%;
+    }
   }
 }

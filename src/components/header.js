@@ -6,10 +6,19 @@ const Header = (props) => {
     return (
         <header className="header-component">
             <div className="row">
-                <div className="col-5">
-                    <button type="button" className="btn btn-success">Collapse</button>
+                <div className="col-1">
+                    <button type="button">
+                        <div className="menu-icon">
+                            <div className="line"></div>
+                            <div className="line"></div>
+                            <div className="line"></div>
+                        </div>
+                    </button>
                 </div>
-                <div className="offset-3 col-2 text-right">
+                <div className="col-2">
+                    <h3>Activity</h3>
+                </div>
+                <div className="offset-5 col-2 text-right">
                     <img src={user_img} alt="user-avatar" className="avatar-img rounded-circle" />
                 </div>
                 <div className="pl-0 col-2">
