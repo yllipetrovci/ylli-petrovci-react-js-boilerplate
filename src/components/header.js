@@ -6,18 +6,22 @@ const Header = (props) => {
     return (
         <header className="header-component">
             <div className="row">
-                <div className="col-1">
-                    <button type="button">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
+                <div className="col-3">
+                    <ul className="list-inline pt-4">
+                        <li className="list-inline-item">
+                            <button type="button">
+                                <i class="fas fa-align-justify"></i>
+                            </button>
+                        </li>
+                        <li className="list-inline-item">
+                            <p>Activity</p>
+                        </li>
+                    </ul>
                 </div>
-                <div className="col-2">
-                    <h3>Activity</h3>
-                </div>
-                <div className="offset-5 col-2 text-right">
+                <div className="offset-5 col-2 text-right pt-3">
                     <img src={user_img} alt="user-avatar" className="avatar-img rounded-circle" />
                 </div>
-                <div className="pl-0 col-2">
+                <div className="pl-0 col-2 pt-3">
                     <p className="username-paragraph">userame</p>
                 </div>
             </div>
