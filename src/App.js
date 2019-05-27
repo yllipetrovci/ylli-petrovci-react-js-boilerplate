@@ -9,12 +9,12 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <div className="row">
+          <div className="row row ml-0 mr-0">
 
-            <div className="col-12 col-md-2 pr-md-0">
+            <div className="col-12 col-md-2 pr-0 pl-0">
               <SidebardMenu />
             </div>
-            <div className="col-12 col-md-10 pl-md-0">
+            <div className="col-12 col-md-10 pl-md-0 pr-0">
               <div className='pl-0 col-12 pr-0'>
                 <div className="container">
                   <Header name="Name" />
