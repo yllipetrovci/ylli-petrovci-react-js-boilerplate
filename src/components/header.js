@@ -7,10 +7,10 @@ const Header = (props) => {
         <header className="header-component">
             <div className="row">
                 <div className="col-3">
-                    <ul className="list-inline pt-4">
+                    <ul className="list-inline pt-3">
                         <li className="list-inline-item">
                             <button type="button">
-                                <i class="fas fa-align-justify"></i>
+                            <i class="fas fa-align-justify"></i>
                             </button>
                         </li>
                         <li className="list-inline-item">
@@ -18,16 +18,16 @@ const Header = (props) => {
                         </li>
                     </ul>
                 </div>
-                <div className="col-3">
+                <div className="offset-3 col-3 pt-3 text-right">
                     <button  class="btn btn-success">
                         Create Projects
                     </button>
                 </div>
-                <div className="offset-5 col-2 text-right pt-3">
+                <div className="col-1 text-right pt-3">
                     <img src={user_img} alt="user-avatar" className="avatar-img rounded-circle" />
                 </div>
-                <div className="pl-0 col-2 pt-3">
-                    <p className="username-paragraph">userame</p>
+                <div className="pl-0 col-2 pt-2">
+                    <p className="username-paragraph">Ylli Petrovci</p>
                 </div>
             </div>
         </header>
