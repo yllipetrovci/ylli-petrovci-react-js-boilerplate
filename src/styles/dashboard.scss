@@ -1,6 +1,10 @@
 .dashboard-view{
+    width:100% ;
     // border:2px solid red;
     // height: 100%;
     border: 0.5px solid #BDC4D1;
-    
+    .row-modified{
+        width:100%;
+        margin:0;
+    }
 }

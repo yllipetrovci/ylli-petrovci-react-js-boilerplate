@@ -6,8 +6,8 @@ class Dashboard extends Component {
     render() {
         return (
             <div className="dashboard-view">
-                {/* <div className="container"> */}
-                    <div className="row">
+                <div className="container">
+                    <div className="row row-modified">
                         <div className="col-9">
                             <h1>Dashboard</h1>
                         </div>
@@ -15,7 +15,7 @@ class Dashboard extends Component {
                             <RecentActivities />
                         </div>
                     </div>
-                {/* </div> */}
+                </div>
             </div>
         )
     }
