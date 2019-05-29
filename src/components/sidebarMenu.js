@@ -17,7 +17,7 @@ const SideBarMenu = (props) => {
                         {/* #display routes */}
                         {setupRoutes.map((route, index) => (
 
-                            <li>
+                            <li key={index}>
                                 <ul className="list-inline">
                                     <li className="list-inline-item">
                                         <i class={route.icon}></i>
