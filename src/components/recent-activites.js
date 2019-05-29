@@ -1,6 +1,10 @@
 import React from 'react';
 import '../styles/recent-activities.scss';
 import user_img from '../assets/user-avatar.png';
+import angelinaJoliImg from '../assets/users/angelina-joli.png';
+import bradleyCooperImg from '../assets/users/bradley-cooper.png';
+import hughLaurieImg from '../assets/users/hugh-laurie.png';
+import jeniferAnistonImg from '../assets/users/jenifer-aniston.png'; 
 
 const RecentActivities = (props) => {
 
