@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/sidebar.scss';
 import setupRoutes from '../setupRoutes';
+import logo from '../assets/logo.png';
 
 const SideBarMenu = (props) => {
     return (
@@ -8,7 +9,8 @@ const SideBarMenu = (props) => {
             <div className="row">
                 <div className="col-12">
                     <div className="logo-wrapper">
-                        <h3 className="logo">Logo</h3>
+                        {/* <h3 className="logo">Logo</h3> */}
+                        <img src={logo} alt="logo"/>
                     </div>
                 </div>
                 <hr />
