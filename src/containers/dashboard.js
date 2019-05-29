@@ -6,14 +6,12 @@ class Dashboard extends Component {
     render() {
         return (
             <div className="dashboard-view">
-                <div className="container">
-                    <div className="row row-modified">
-                        <div className="col-9">
-                            <h1>Dashboard</h1>
-                        </div>
-                        <div className="col-3 text-right">
-                            <RecentActivities />
-                        </div>
+                <div className="row row-modified">
+                    <div className="col-9">
+                        <h1>Dashboard</h1>
+                    </div>
+                    <div className="col-3 text-right">
+                        <RecentActivities />
                     </div>
                 </div>
             </div>

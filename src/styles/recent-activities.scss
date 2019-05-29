@@ -1,7 +1,9 @@
 @import "./config-theme.scss";
 
 .recent-activities-component {
-//   border: 1px solid red;
+  //   border: 1px solid red;
+  background-color: #f4f8fe;
+  height: calc(100vh - 70px);
   background-color: $recent-activity-bg-color;
   h4 {
     color: $recent-activity-header-color;
@@ -13,17 +15,13 @@
     color: $recent-activity-user-action-color;
   }
   img {
-    max-width: 80%;
+    max-width: 70%;
   }
-
-//   height: 100%;
 
   ul {
     padding: 0;
-    // border: 1px solid black;
     li {
       padding: 0;
-    //   border: 1px solid black;
     }
   }
 }

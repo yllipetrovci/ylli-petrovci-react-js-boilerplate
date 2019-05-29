@@ -41,10 +41,10 @@ const RecentActivities = (props) => {
                                 <div className="col-8 text-left pt-2 pl-0">
                                     <div className="row">
                                         <div className="col-12">
-                                            <h5 className="mb-0">Angelia Joile</h5>
+                                            <h5 className="mb-0">Bradley Cooper</h5>
                                         </div>
                                         <div className="col-12">
-                                            <p>Liked your post</p>
+                                            <p>Commented your profile</p>
                                         </div>
                                     </div>
                                 </div>
@@ -58,10 +58,27 @@ const RecentActivities = (props) => {
                                 <div className="col-8 text-left pt-2 pl-0">
                                     <div className="row">
                                         <div className="col-12">
-                                            <h5 className="mb-0">Angelia Joile</h5>
+                                            <h5 className="mb-0">Jenifer Aniston</h5>
                                         </div>
                                         <div className="col-12">
-                                            <p>Liked your post</p>
+                                            <p>Started following you</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="row">
+                                <div className="col-4 text-right pt-2">
+                                    <img src={user_img} alt="user-avatar" className="rounded-circle" />
+                                </div>
+                                <div className="col-8 text-left pt-2 pl-0">
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <h5 className="mb-0">Hugh Laurie</h5>
+                                        </div>
+                                        <div className="col-12">
+                                            <p>Commented your profile</p>
                                         </div>
                                     </div>
                                 </div>
