@@ -16,7 +16,17 @@ const SideBarMenu = (props) => {
                     <ul className="sidebar-ul">
                         {/* #display routes */}
                         {setupRoutes.map((route, index) => (
-                            <li>{route.name}</li>
+
+                            <li>
+                                <ul className="list-inline">
+                                    <li className="list-inline-item text-left">
+                                        <i class={route.icon}></i>
+                                    </li>
+                                    <li className="list-inline-item route-name text-right">
+                                        {route.name}
+                                    </li>
+                                </ul>
+                            </li>
                         ))}
                     </ul>
                 </div>

@@ -10,7 +10,7 @@ class Dashboard extends Component {
                     <div className="col-9">
                         <h1>Dashboard</h1>
                     </div>
-                    <div className="col-3 text-right">
+                    <div className="col-3 pr-0 text-right">
                         <RecentActivities />
                     </div>
                 </div>

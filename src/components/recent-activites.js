@@ -23,7 +23,7 @@ const RecentActivities = (props) => {
                         <li>
                             <div className="row">
                                 <div className="col-4 text-right pt-2">
-                                    <img src={user_img} alt="user-avatar" className="rounded-circle" />
+                                    <img src={angelinaJoliImg} alt="user-avatar" className="rounded-circle" />
                                 </div>
                                 <div className="col-8 text-left pt-2 pl-0">
                                     <div className="row">
@@ -40,7 +40,7 @@ const RecentActivities = (props) => {
                         <li>
                             <div className="row">
                                 <div className="col-4 text-right pt-2">
-                                    <img src={user_img} alt="user-avatar" className="rounded-circle" />
+                                    <img src={bradleyCooperImg} alt="user-avatar" className="rounded-circle" />
                                 </div>
                                 <div className="col-8 text-left pt-2 pl-0">
                                     <div className="row">
@@ -57,7 +57,7 @@ const RecentActivities = (props) => {
                         <li>
                             <div className="row">
                                 <div className="col-4 text-right pt-2">
-                                    <img src={user_img} alt="user-avatar" className="rounded-circle" />
+                                    <img src={jeniferAnistonImg} alt="user-avatar" className="rounded-circle" />
                                 </div>
                                 <div className="col-8 text-left pt-2 pl-0">
                                     <div className="row">
@@ -74,7 +74,7 @@ const RecentActivities = (props) => {
                         <li>
                             <div className="row">
                                 <div className="col-4 text-right pt-2">
-                                    <img src={user_img} alt="user-avatar" className="rounded-circle" />
+                                    <img src={jeniferAnistonImg} alt="user-avatar" className="rounded-circle" />
                                 </div>
                                 <div className="col-8 text-left pt-2 pl-0">
                                     <div className="row">
