@@ -9,7 +9,7 @@
     width: 40px;
     height: 40px;
   }
-  
+
   .username-paragraph {
     color: #819ac6;
     padding-top: 15px;
@@ -23,7 +23,8 @@
   .btn.btn-success {
     background-color: $header-button;
     border-radius: 50px;
-    margin-top: 3px;
+    width: 124px;
+    margin-top: 0px;
     font-size: 12px;
     padding: 3% 6%;
     border: none;
@@ -32,7 +33,7 @@
   .list-inline {
     margin-bottom: 0;
     .list-inline-item {
-      button {
+      .transparent {
         background: transparent;
         border: none;
         outline: none;
