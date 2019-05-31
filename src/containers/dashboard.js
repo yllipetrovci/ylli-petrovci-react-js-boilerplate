@@ -9,7 +9,7 @@ class Dashboard extends Component {
     render() {
         return (
             <div className="dashboard-view">
-                <div className="row row-modified">
+                <div className="row row-modified dashboard-border">
                     <div className="col-9">
                         <div className="container pt-3">
                             <Panel title="Lorem Stats" paragraph="September 15 - September 30">
