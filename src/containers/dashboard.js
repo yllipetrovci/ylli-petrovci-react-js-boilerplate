@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../styles/dashboard.scss';
 import RecentActivities from '../components/recent-activites';
 import Select from '../components/select';
+import Panel from '../components/panel';
+import Input from '../components/input';
 
 class Dashboard extends Component {
     render() {
@@ -10,15 +12,14 @@ class Dashboard extends Component {
                 <div className="row row-modified">
                     <div className="col-9">
                         <div className="container pt-3">
-                            <div className="row">
+                            <Panel title="Lorem Stats" paragraph="September 15 - September 30">
+                                <div className=" col-4">
+                                    <Select />
+                                </div>
                                 <div className="col-4">
-                                    <h1>Lorem Stats</h1>
-                                    <p>September 15 - September 30</p>
+                                    <Input />
                                 </div>
-                                <div className="offset-4 col-4 pt-3">
-                                    <Select/> 
-                                </div>
-                            </div>
+                            </Panel>
                         </div>
                     </div>
                     <div className="col-3 pr-0 text-right">
