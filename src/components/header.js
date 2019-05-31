@@ -10,7 +10,7 @@ const Header = (props) => {
                     <ul className="list-inline pt-3">
                         <li className="list-inline-item">
                             <button type="button" className="transparent">
-                                <i class="fas fa-align-justify"></i>
+                                <i className="fas fa-align-justify"></i>
                             </button>
                         </li>
                         <li className="list-inline-item">
@@ -19,20 +19,20 @@ const Header = (props) => {
                     </ul>
                 </div>
                 <div className="offset-1 col-5 pt-3 text-right">
-                    <ul className="list-inline">
+                    <ul className="list-inline pt-1">
                         <li className="list-inline-item">
-                            <button class="btn btn-success">
+                            <button className="btn btn-success">
                                 Create Projects
                             </button>
                         </li>
                         <li className="list-inline-item">
                             <button className="transparent">
-                                <i class="far fa-bell"></i>
+                                <i className="far fa-bell"></i>
                             </button>
                         </li>
                         <li className="list-inline-item">
                             <button className="transparent">
-                                <i class="far fa-comment-alt"></i>
+                                <i className="far fa-comment-alt"></i>
                             </button>
                         </li>
                     </ul>
