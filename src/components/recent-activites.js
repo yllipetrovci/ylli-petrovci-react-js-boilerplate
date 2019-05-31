@@ -10,7 +10,7 @@ const RecentActivities = (props) => {
 
     return (
         <div className="recent-activities-component">
-            <div className="row">
+            <div className="row mr-1">
                 <div className="col-12">
                     <ul>
                         <li>
