@@ -21,7 +21,7 @@ const SideBarMenu = (props) => {
                             <li key={index}>
                                 <ul className="list-inline">
                                     <li className="list-inline-item">
-                                        <i class={route.icon}></i>
+                                        <i className={route.icon}></i>
                                     </li>
                                     <li className="list-inline-item">
                                         {route.name}
