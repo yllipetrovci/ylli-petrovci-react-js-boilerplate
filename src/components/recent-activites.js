@@ -4,7 +4,7 @@ import user_img from '../assets/user-avatar.png';
 import angelinaJoliImg from '../assets/users/angelina-joli.png';
 import bradleyCooperImg from '../assets/users/bradley-cooper.png';
 import hughLaurieImg from '../assets/users/hugh-laurie.png';
-import jeniferAnistonImg from '../assets/users/jenifer-aniston.png'; 
+import jeniferAnistonImg from '../assets/users/jenifer-aniston.png';
 
 const RecentActivities = (props) => {
 
@@ -87,6 +87,9 @@ const RecentActivities = (props) => {
                                     </div>
                                 </div>
                             </div>
+                        </li>
+                        <li className="text-center">
+                            <button type="button view-more">VIEW MORE</button>
                         </li>
                     </ul>
                 </div>
