@@ -1,0 +1,58 @@
+@import "./config-theme.scss";
+
+.header-component {
+  height: 70px;
+  // margin-top: 20px;
+  background-color: #f7faff;
+
+  .avatar-img {
+    width: 40px;
+    height: 40px;
+  }
+
+
+  .username-paragraph {
+    color: #819ac6;
+    padding-top: 15px;
+  }
+
+  .active .menu-icon {
+    background: #3e3065;
+    border: 1px solid #3e3065;
+  }
+
+  .btn.btn-success {
+    background-color: $header-button;
+    border-radius: 50px;
+    width: 125px;
+    margin-top: 0px;
+    font-size: 13px;
+    padding: 3% 6%;
+    border: none;
+  }
+  
+  .color{
+    color: #B0C0D9;
+  }
+
+  .list-inline {
+    margin-bottom: 0;
+    .list-inline-item {
+      .transparent {
+        background: transparent;
+        border: none;
+        outline: none;
+      }
+      .fa-align-justify {
+        color: #e3e9f4;
+        font-size: 21px;
+      }
+      p {
+        color: #7e99c5;
+        font-weight: bold;
+        font-size: 21px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

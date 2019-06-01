@@ -1,0 +1,24 @@
+@import "../config-theme.scss";
+
+.card-component {
+  border: 2px solid #f7faff;
+  
+  img {
+    width: 20px;
+  }
+  
+  .first-color {
+    color: $first-card-content-color;
+  }
+
+  .second-color {
+    color: $second-card-content-color;
+  }
+
+  .third-color {
+    color: $thid-card-content-color;
+  }
+  .fourth-color {
+    color: $fourth-card-content-color;
+  }
+}

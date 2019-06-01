@@ -1,0 +1,39 @@
+@import "./config-theme.scss";
+
+.recent-activities-component {
+  //   border: 1px solid red;
+  background-color: #f4f8fe;
+  height: calc(100vh - 70px);
+  background-color: $recent-activity-bg-color;
+  h4 {
+    color: $recent-activity-header-color;
+    font-size: 18px;
+  }
+  h5 {
+    color: $recent-activity-username-color;
+  }
+  p {
+    color: $recent-activity-user-action-color;
+    font-size: 14px;
+  }
+  img {
+    max-width: 70%;
+  }
+
+  ul {
+    padding: 0;
+    li {
+      padding: 0;
+    }
+    button {
+      border: 1px solid $recent-activity-bg-color;
+      font-size: 16px;
+      font-weight: bold;
+      color: $recent-activity-header-color;
+      padding: 4% 16%;
+      background: #fff;
+      border-radius: 50px;
+      outline: none;
+    }
+  }
+}

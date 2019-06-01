@@ -1,0 +1,13 @@
+.input-component {
+  input {
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #829bc6;
+    &::placeholder{
+        color :#829bc6;
+        font-weight: 600;
+        font-size:16px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import "./config-theme.scss";
+
+.sidebar-menu-component {
+  background-color: $side-bar-bg-color;
+  height: 100vh;
+
+  .sidebar-ul {
+    padding-left: 30px;
+    padding-top: 15px;
+    li {
+      color: $side-bar-li-color;
+      &:active,
+      &:hover {
+        color: $side-bar-li-hover-and-active-color;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .logo-wrapper {
+    padding: 20px 50px;
+    min-height: 70px;
+    background-color: $side-bar-logo-bg-color;
+    .logo {
+      padding-top: 20px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
