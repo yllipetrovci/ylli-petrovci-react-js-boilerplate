@@ -1,0 +1,12 @@
+.dashboard-view {
+  width: 100%;
+  .dashboard-border{
+    border:0.5px solid #E8EEF6;
+  }
+  height: calc(100vh - 70px);
+
+  .row-modified {
+    width: 100%;
+    margin: 0;
+  }
+}
