@@ -1,6 +1,12 @@
 @import "../config-theme.scss";
 
 .card-component {
+  border: 2px solid #f7faff;
+  
+  img {
+    width: 20px;
+  }
+  
   .first-color {
     color: $first-card-content-color;
   }
