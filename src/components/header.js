@@ -26,12 +26,12 @@ const Header = (props) => {
                             </button>
                         </li>
                         <li className="list-inline-item">
-                            <button className="transparent">
+                            <button className="transparent color">
                                 <i className="far fa-bell"></i>
                             </button>
                         </li>
                         <li className="list-inline-item">
-                            <button className="transparent">
+                            <button className="transparent color">
                                 <i className="far fa-comment-alt"></i>
                             </button>
                         </li>
