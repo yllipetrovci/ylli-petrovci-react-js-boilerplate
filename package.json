@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": ">=8.10"
+  },
   "name": "ylli-petrovci-react-js-boilerplate",
   "version": "0.1.0",
   "private": true,
