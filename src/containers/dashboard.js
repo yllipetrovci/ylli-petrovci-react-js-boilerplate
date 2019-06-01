@@ -5,6 +5,11 @@ import Select from '../components/select';
 import Panel from '../components/panel';
 import Input from '../components/input';
 import Card from '../components/card';
+//temporary import here card images
+import commentsIcon from '../assets/card-icons/comments.svg';
+import notificationIcon from '../assets/card-icons/notification.svg';
+import userIcon from '../assets/card-icons/user.svg';
+import viewsIcon from '../assets/card-icons/views.svg';
 
 class Dashboard extends Component {
     render() {
@@ -13,18 +18,18 @@ class Dashboard extends Component {
                 <div className="row row-modified dashboard-border">
                     <div className="col-9">
                         <div className="container pt-3">
-                            <div className="row">
+                            <div className="row pb-3">
                                 <div className="col-3">
-                                    <Card title="Users" value="3214" />
+                                    <Card title="Users" value="3214" icon={commentsIcon} color="first-color" />
                                 </div>
                                 <div className="col-3">
-                                    <Card title="Notifications" value="9845" />
+                                    <Card title="Notifications" value="9845" icon={notificationIcon} color="second-color" />
                                 </div>
                                 <div className="col-3">
-                                    <Card title="Comments" value="1249" />
+                                    <Card title="Comments" value="1249" icon={userIcon} color="third-color" />
                                 </div>
                                 <div className="col-3">
-                                    <Card title="Views" value="321469" />
+                                    <Card title="Views" value="321469" icon={viewsIcon} color="fourth-color" />
                                 </div>
                             </div>
                             <Panel title="Lorem Stats" paragraph="September 15 - September 30">
