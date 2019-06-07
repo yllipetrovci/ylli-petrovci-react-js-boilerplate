@@ -35,8 +35,10 @@
     "webpack-dev-server": "^3.4.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --inline --hot",
-    "build": "react-scripts build",
+    "start": "node server.js",
+    "dev-start": "webpack-dev-server --inline --hot",
+    "heroku-postbuild": "webpack -p",
+    "build": "webpack -p --config ./webpack.config.js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
