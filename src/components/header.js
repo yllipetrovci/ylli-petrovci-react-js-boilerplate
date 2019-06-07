@@ -2,6 +2,10 @@ import React from 'react';
 import '../styles/header.scss';
 import user_img from '../assets/users/hugh-laurie.png';
 
+import { connect } from 'react-redux';
+import { readUser } from '../actions/user-action';
+
+
 const Header = (props) => {
     return (
         <header className="header-component">
@@ -47,5 +51,10 @@ const Header = (props) => {
         </header>
     )
 }
+const mapStateToProps = (state) => {
+    return {
+        user: state.user,
+    }
+}
 
-export default Header;
+export default connect(mapStateToProps)(Header);
