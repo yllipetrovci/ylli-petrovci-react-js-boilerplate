@@ -12,6 +12,11 @@ import userIcon from '../assets/card-icons/user.svg';
 import viewsIcon from '../assets/card-icons/views.svg';
 
 class Dashboard extends Component {
+    constructor(props){
+        super(props),
+        this.state ={}
+    }
+
     render() {
         return (
             <div className="dashboard-view">
