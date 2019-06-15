@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/dashboard.scss';
-import RecentActivities from '../components/recent-activites';
 import Select from '../components/select';
 import Panel from '../components/panel';
 import Input from '../components/input';
@@ -10,8 +9,20 @@ import commentsIcon from '../assets/card-icons/comments.svg';
 import notificationIcon from '../assets/card-icons/notification.svg';
 import userIcon from '../assets/card-icons/user.svg';
 import viewsIcon from '../assets/card-icons/views.svg';
+//Recent activity
+import RecentActivities from '../components/recent-activites';
+import Activity from '../components/activity';
+import angelinaJoliImg from '../assets/users/angelina-joli.png';
+import bradleyCooperImg from '../assets/users/bradley-cooper.png';
+import jeniferAnistonImg from '../assets/users/jenifer-aniston.png';
+import hughLaurie from '../assets/users/hugh-laurie.png';
 
 class Dashboard extends Component {
+    constructor(props) {
+        super(props),
+            this.state = {}
+    }
+
     render() {
         return (
             <div className="dashboard-view">
@@ -43,7 +54,12 @@ class Dashboard extends Component {
                         </div>
                     </div>
                     <div className="col-3 pr-0 text-right">
-                        <RecentActivities />
+                        <RecentActivities title="RECENT ACTIVITY" >
+                            <Activity title={"Angelina Joli"} action={"liked your post"} img={angelinaJoliImg} />
+                            <Activity title={'Bradley Cooper'} action={"Commented your profile"} img={bradleyCooperImg} />
+                            <Activity title={'Jenifer Aniston'} action={"Started following you"} img={jeniferAnistonImg} />
+                            <Activity title={'Hugh Laurie'} action={"Commented your profile"} img={hughLaurie} />
+                        </RecentActivities>
                     </div>
                 </div>
             </div>
