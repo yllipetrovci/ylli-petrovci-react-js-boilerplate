@@ -1,9 +1,10 @@
-let initState = [
-    { users_scores: 3214 },
-    { notifications_scores: 9845 },
-    { comments_scores: 1249 },
-    { views_scores: 321469 }
-];
+let initState = {
+    users_score: 3214,
+    notifications_score: 9845,
+    comments_score: 1249,
+    views_score: 321469
+}
+
 
 const cardReducer = (state = initState, action) => {
     switch (action.type) {
