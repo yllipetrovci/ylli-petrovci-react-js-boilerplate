@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "8.10"
+  },
   "babel": {
     "presets": [
       "env",
@@ -36,7 +39,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "dev-start": "webpack-dev-server --inline --hot",
+    "dev start": "webpack-dev-server --inline --hot",
     "heroku-postbuild": "webpack -p",
     "build": "webpack -p --config ./webpack.config.js",
     "test": "react-scripts test --env=jsdom",
