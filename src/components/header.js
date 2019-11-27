@@ -3,10 +3,10 @@ import '../styles/header.scss';
 import user_img from '../assets/users/hugh-laurie.png';
 
 import { connect } from 'react-redux';
-import { readUser } from '../actions/user-action';
 
 
 const Header = (props) => {
+    const user = props.user;
     return (
         <header className="header-component">
             <div className="row">
@@ -45,14 +45,13 @@ const Header = (props) => {
                     <img src={user_img} alt="user-avatar" className="avatar-img rounded-circle" />
                 </div>
                 <div className="pl-0 col-2 pt-2">
-                    <p className="username-paragraph">Hugh Laurie</p>
+                    <p className="username-paragraph">{user.name} {user.lastname}</p>
                 </div>
             </div>
         </header>
     )
 }
 const mapStateToProps = (state) => {
-    console.log(state.user);
     return {
         user: state.user
     }

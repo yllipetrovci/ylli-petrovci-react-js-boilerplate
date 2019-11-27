@@ -9,7 +9,6 @@ const SideBarMenu = (props) => {
             <div className="row">
                 <div className="col-12">
                     <div className="logo-wrapper">
-                        {/* <h3 className="logo">Logo</h3> */}
                         <img src={logo} alt="logo"/>
                     </div>
                 </div>

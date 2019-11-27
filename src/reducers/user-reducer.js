@@ -1,4 +1,4 @@
-let initState = {name:"filan",lastname:"fisteku"};
+let initState = {name:"Hugh",lastname:"Laurie"};
 
 const userReducer = (state = initState, action) => {
     switch (action.type) {
